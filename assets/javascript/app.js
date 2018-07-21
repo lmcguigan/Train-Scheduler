@@ -19,7 +19,6 @@ var currentTime = moment().format("HH:mm:ss");
 $("#add-train").on("click", function (event) {
     // Don't refresh the page!
     event.preventDefault();
-
     // Get inputs
     var trainName = $("#name-input").val().trim();
     var trainDestination = $("#destination-input").val().trim();
